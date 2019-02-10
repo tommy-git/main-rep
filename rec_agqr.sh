@@ -12,7 +12,7 @@ if [ $# -ne 2 ]; then
     usage
 fi
 
-CONNECT_URL='rtmp://fms-base1.mitene.ad.jp/agqr/aandg22'
+CONNECT_URL=${find with your own}
 TIME=${1}
 currenttime=`date +%Y%m%d-%H%M%S`
 FILENAME=${2}/${currenttime}
